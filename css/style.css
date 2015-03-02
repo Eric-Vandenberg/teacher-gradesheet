@@ -1,9 +1,125 @@
 body {
-  background-color: #d3d3d3;
+	background: #f7fbfc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f7fbfc), color-stop(40%,#d9edf2), color-stop(100%,#add9e4)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C */
+	font-family: 'Handlee', cursive;
+	position: relative;
+}
+h1 {
+	position: relative;
+	width: 300px;
+	text-decoration: underline;
+	color: rgba(0,0,0,.8); 	
+	text-shadow: -1px -2px 1px rgba(150, 150, 150, .8);
+	margin: 0 auto;
+	top: 70px;
+	z-index: 10;
 }
 
 #average_div {
 	position: absolute;
-	top: 10px;
-	left: 500px;
+	left: 480px;
+}
+#all {
+	position: absolute;
+	left: 9px;
+	width: 100px;
+	text-align: center;
+	vertical-align: center;
+}
+#allcheck {
+	vertical-align: top;
+	margin-top: 7px;
+	height: 2em;
+	width: 2em;
+}
+#average_div, #all {
+	margin-top: 0px;
+	font-size: 2em;
+	color: #111;
+	padding-top: 40px;
+}
+.input_area {
+	position: relative;
+	border: 1px solid #fff;
+	width: 800px;
+	height: 1000px;
+	margin: 0 auto;
+	background-image: url(../img/Lined-Paper-Template-19.jpg);
+	border-radius: 20px;
+	padding-top: 105px;
+	text-align: left;
+}
+.input {
+	background: transparent;
+	color: black;
+	font-family: 'Handlee', cursive;
+	font-size: 2em;
+	border: none;
+	text-align: left;
+	width: 17%;
+	vertical-align: bottom;
+	margin: 0px 25px 0px 0px;
+	padding-left: 10px;
+}
+#name_input {
+	width: 225px;
+}
+
+#class_input {
+	margin-left: 30px;
+}
+#grade_input {
+	margin: 0px;
+}
+button {
+	border: none;
+	height: 40px;
+	width: 80px;
+	font-family: 'Handlee', cursive;
+	font-size: 16px;
+	color: #fff;
+	background: #add9e4;
+	margin: 0px 10px 0px 0px;
+	float: right;
+}
+
+.cont {
+	position: relative;
+	height: 38px;
+	width: 95%;
+	padding: 35px 0px 0px 15px;
+	font-size: 35px;
+	color: #111;
+}
+
+.namestyle {
+	height: 100%;
+	width: 250px;
+	position: relative;
+}
+
+.classstyle {
+	position: absolute;
+	left: 265px;
+	height: 100%;
+	width: 250px;
+}
+
+.gradestyle {
+	position: absolute;
+	left: 325px;
+	height: 100%;
+	width: 150px;
+}
+
+.checkbox {
+	position: relative;
+	float: right;
+	margin: 5%;
+	font-size: 35px;
 }
